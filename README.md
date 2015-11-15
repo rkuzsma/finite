@@ -39,7 +39,7 @@ FiniteJS is...
 `npm install finite`
 
 example.js
-```
+```javascript
 var Website.login = function(user, pw) {
   console.log("Logged in as " + user);
 }
@@ -109,7 +109,7 @@ The following example performs a complicated sequence of test plans, some in ser
 
 ### Callables
 
-```
+```javascript
 // browser.js
 export function() {
   launch = {
@@ -167,7 +167,7 @@ export function() {
 ### Plans
 
 allPlans.js
-```
+```javascript
 var Finite = require('finite'),
   Browser = require('browser'),
   Account = require('account'),
@@ -252,7 +252,7 @@ var kitchenSinkTestPlan = {
 ```
 
 Finally, run the plan:
-```
+```javascript
 Finite.run(kitchenSinkTestPlan);
 ```
 
