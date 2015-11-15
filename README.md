@@ -31,7 +31,7 @@ FiniteJS is...
 * When a test fails, dependent tests won't run. For example, if the app is down, the test plan will fail fast.
 
 ## Slick Reporting
-* Beautiful test reports through the Finite-Reports add-on module.
+* Beautiful test reports through the [Finite-Reports](https://github.com/rkuzsma/finite-reports) add-on module.
 
 
 # Getting Started
@@ -256,4 +256,4 @@ Finally, run the plan:
 Finite.run(kitchenSinkTestPlan);
 ```
 
-Use Finite-Reporter to display results.
+Use [Finite-Reports](https://github.com/rkuzsma/finite-reports) to display results.
