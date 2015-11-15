@@ -189,7 +189,7 @@ var verifyEditorPlan = {
 }
 
 var oldDocumentTestPlan = {
-  name: "Test an Old Document"",
+  name: "Test an Old Document",
   do: [
     {
       call: Document.open,
